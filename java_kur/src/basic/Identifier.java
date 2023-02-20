@@ -1,5 +1,6 @@
+package basic;
 
-public class identifier {
+public class Identifier {
 
 	public static void main(String[] args) {
 		
@@ -28,7 +29,7 @@ public class identifier {
 		//뿐입니다. 하지만 사용을 권장하지는 않습니다.
 		//저 특수문자들은 사용하기로 약속한 곳이 지정되어 있습니다.
 		
-		 String $hello = "안녕"; //가능은 함
+		 String $hello = "안녕"; //가능은 함 가능하면 쓰지말아라
 		 System.out.println($hello);
 		
 		
@@ -37,12 +38,36 @@ public class identifier {
 		
 //		String class = "클래스";(x)
 	    String Class = "클래스"; // (권장하지 않습니다.)
-	    String className = "클래스";
+	    String className = "클래스"; // 뒤에다가 단어를 붙여라
 	    
-	    //6. 한글이나 한자 샅은 식별자 이름도 지정이 가능합니다.
+	    //6. 한글이나 한자 같은 식별자 이름도 지정이 가능합니다.
 	    //하지만 사용을 권장하지는 않습니다.
 	    int  숫자 = 10;
 	    System.out.println(숫자); //가독성 x 영어와 숫자로 구성된 식별자를 사용권장함
+	    
+	    
+	    //기본 자료형
+	    
+	    //정수
+	    //byte          short       *int  long 
+	    // 1(사용됨)     2(거의않씀)  (대표)4   8
+	    
+	    //실수
+	    // float 7  *double 15  정밀한 값을 위해
+	    //   4         8
+	    
+	    //논리 (참과 거짓)
+	    //boolean 1bit  (true false)
+	    
+	    //문자
+	    //char 2  유나코드 문자 (단일문자)
+	   
+	    
+	    //String-> 기본타입은 아님 그치만 기본타입처럼 자주 쓰임 
+	    
+	    
+	    
+	    
 	}
 
 }

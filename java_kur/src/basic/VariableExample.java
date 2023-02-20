@@ -1,8 +1,8 @@
-import javax.annotation.processing.SupportedSourceVersion;
+package basic;
 
-public class variableExample {
 
-	public static void main(String[] args) {
+public class VariableExample {
+    public static void main(String[] args) {
 		/*
 		 # 변수 (Variable)
 		 

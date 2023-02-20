@@ -1,3 +1,4 @@
+package basic;
 /**
  * 문서 생성용 주석입니다.
  * 배포용 문서에 설명을 달아 놓을 때 사용합니다.
@@ -7,12 +8,12 @@
  */
 
 //이 파일은 주석을 연습하는 파일입니다.
-public class commentsExample {
+public class CommentsExample {
 	
 	public static void main(String[] args) {
 		
 		/*
-		main 함수(메서드)는 프로그램 샐행 시 자동으로 동작하는 함수이며,
+		main 함수(메서드)는 프로그램 실행 시 자동으로 동작하는 함수이며,
 		반드시 필요한 함수입니다.
 		
 		# 자바 코드를 해석하여 실행시키는 자바 가상 머신(JVM)은
