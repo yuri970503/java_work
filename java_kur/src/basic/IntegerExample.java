@@ -13,7 +13,7 @@ public class IntegerExample {
 		
 		
 		byte a = 127;
-	// 타입   변수  상수
+	// 타입   변수  상수 - 항상 그 수를 나타내는 수 
 		
 		// 8bit
 		//-2^7 ~ 2^7 -1

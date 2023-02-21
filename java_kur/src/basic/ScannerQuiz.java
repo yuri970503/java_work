@@ -32,6 +32,33 @@ public class ScannerQuiz {
 		
 		
 		
+		 /* 퀴즈
+		 
+		  int birth = 2023 - age; ->새로운 변수 선언도 가능
+		  System.out.println (-------------------------)
+		  System.out.println("이름: +");
+		  System.out.println("나이:");
+		  System.out.println("출생년도:");
+		 
+		  System.out.println (-------------------------)
+		  
+		  
+		  */
+		 
+		
+		/*
+		  System.out.println (-------------------------)
+		  System.out.println("이름: %s\n나이: %d세\n출생년도: %d년\n",name,age, 2023 - age)
+		  System.out.println (-------------------------)
+		  
+		 */
+		 
+		 
+		 
+		 
+		
+		
+		
 
 	}
 

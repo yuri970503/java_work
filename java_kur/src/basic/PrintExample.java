@@ -25,7 +25,7 @@ public class PrintExample {
 		 %d: 부호가 있는 정수 데이터(decimal)
 		 %f: 실수 데이터 (floation point)
 		 %s: 문자열(String)
-		 
+		                           // 줄바꿈 안됨
 		 # 탈출 코드(escape code) -> printf에만 동작하는 게 아니에요.
 		 - 반드시 따옴표 내에 위치해야 합니다.
 		 - 문자열 내에서 특정 명령을 내리고 싶을 때 사용하는 특수 기호입니다.

@@ -4,7 +4,7 @@ public class TexualExample {
 
 	public static void main(String[] args) {
 		
-		char c1 = 'A'; // 쌍따옴표는 안된다. (단일문자)
+		char c1 = 'A'; // 쌍따옴표는 안된다. (단일문자) 차 캐릭터
 		System.out.println(c1);
 		
 		char c2 = 44032;
