@@ -8,7 +8,6 @@ public class WhileExample2 {
 		//(48부터 숫자를 하나씩 올려가면서 8의 배수 판별을 반복하면 되갰죠?)
 		
 		int num = 48;
-		int i = 1;
 		while (num <= 150) {
 			if (num % 8 == 0) {
 				System.out.print(num + " ");
@@ -43,7 +42,16 @@ public class WhileExample2 {
 		    }				
 			one++;
 		}System.out.println("258의 배수의 개수: "+z);
-		
+		/*
+		 모범답안
+		 int j = 1;
+		 int count = 0; -배수의 개수를 기억해 줄 변수
+		 while (j <= 30000){
+		    if(j % 258 == 0){
+		     count++;
+		    }j++;
+		 }  System.out.println("258의 배수의 개수: "+count);
+		 */
 		
 		
 		
@@ -61,7 +69,15 @@ public class WhileExample2 {
 			s++;
 		}	System.out.println("1000의 약수의 개수: "+ r);
 		
-		
+		/*
+		 모범답안
+		 int k = 1;
+		 int cnt = 0;
+		 while (k <= 1000){
+		     if (1000 % k == 0)
+		         cnt++;
+		 } k++;
+		 */
 		
 		
 		
