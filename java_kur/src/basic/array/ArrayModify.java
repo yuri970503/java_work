@@ -36,6 +36,9 @@ public class ArrayModify {
 	    	System.out.println("없는 음식입니다.");
 	    }
 	    sc.close();
+	    
+	    
+	   
  	}
 
 }

@@ -26,12 +26,12 @@ public class ArrayinsertQuiz {
 
 		System.out.println("먹고싶은 음식을 입력하세요.");
 		System.out.println("'배불러' 를 입력하시면 종료됩니다.");
-		for(int i=0; i<foods.length; i++) {
+		for(int i=0; i<foods.length; i++) { //length = food의 배열의 길이
 
 			System.out.print("> ");
 			String name = sc.next();
 
-			if(name.equals("배불러")) {
+			if(name.equals("배불러")) { //equals??
 				System.out.println("입력을 종료합니다.");
 				break;
 			}
@@ -66,5 +66,23 @@ public class ArrayinsertQuiz {
 		////		  break;
 		////		  
 		//	  }
+		/*
+		추가 문제 
+        - 입력을 받았는데 이미 배열에 존재하는 음식이라면
+        '이미 존재하는 음식입니다.' 를 출력하고
+        다시 새로운 음식을 입력받을 수 있도록 코드를 제어해 보세요.
+		 
+		*/
+		
+		System.out.println("-------------------------------");
+		System.out.print("내가 먹고싶은 음식들: ");
+		for(String f : foods) {
+			if(f == null) break;
+			System.out.print(f + " ");
+		}
+		
+		sc.close();
+		
+		
 	}   
 }
