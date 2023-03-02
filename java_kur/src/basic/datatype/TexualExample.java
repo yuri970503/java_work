@@ -1,4 +1,4 @@
-5package basic.datatype;
+package basic.datatype;
 
 public class TexualExample {
 

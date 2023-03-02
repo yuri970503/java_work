@@ -25,14 +25,14 @@ public class MethodExample1 {
 	
 	//메서드의 선언 (static은 뒤에서 알려드릴게요. 지금은 없다고 생각하세요.)
 	
-	static int calcTotal(int x) //이름을 만들고 타입도 써야한다 
+	static int calcTotal(int x) //이름을 만들고 타입도 써야한다  중요
 	{
 		int total = 0;
-		for (int i = 1; i<=x;i++) //x값 내가 입력하면 들고 온다  
+		for (int i = 1; i<=x;i++) //x값 내가 입력하면 들고 온다  이건 중요하지 않다.
 		{
 			total += i;
 		}
-		return total; //돌려받으려고 리턴을 한다 토탈의 값을 돌려받아야하니까
+		return total; //돌려받으려고 리턴을 한다 토탈의 값을 돌려받아야하니까 리턴을 중요하다
 	}
 	
 	
@@ -43,7 +43,38 @@ public class MethodExample1 {
 		
 		
 		
+		int total =calcTotal(10);//함수의 호출문 int total = 55; 문구랑 다른게 없다 똑같다
+		//변수로 저장
+		System.out.println(total);// 메서드의 호출
+		
+		
+		System.out.println("1부터 100까지의 누적합 " + calcTotal(100));//이젠 질문해도 간단하게 답을 낼 수 있다.
+		System.out.println("1부터 200까지의 누적합 " + calcTotal(200));
+		System.out.println("1부터 300까지의 누적합 " + calcTotal(300));
+		System.out.println("1부터 400까지의 누적합 " + calcTotal(400));
+		System.out.println("1부터 500까지의 누적합 " + calcTotal(500));
+		System.out.println("1부터 600까지의 누적합 " + calcTotal(600));
+		System.out.println("1부터 700까지의 누적합 " + calcTotal(700));
+		
+		
+		
 
 	}
 //메서드 선언 가능
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
