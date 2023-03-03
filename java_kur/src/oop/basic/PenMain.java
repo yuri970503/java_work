@@ -12,9 +12,10 @@ public class PenMain {
 		// 객체 생성 문법 : 클래스타입 변수명 = new 클래스이름();
 		  Pen redpen = new Pen();
 		  Pen blakpen = new Pen();
-		  Pen bluepen = new Pen();
+		  Pen bluepen = new Pen();//참조변수
 		  //객체가 어디에 있는지 알아야 한다.
 	    // 팬  변수   클레스타입 변수명 
+		// 
        
        //참조 연산자(.)를 통해 객체로 점근한 뒤
        //속성을 지정하고 기능을 사용할 수 있습니다.
@@ -34,6 +35,7 @@ public class PenMain {
        redpen.priceInfo();
        bluepen.priceInfo();
        blakpen.priceInfo();
-	}
+	}  //변수명과 메서드명과 같게헤도 된다  설계도가 동일하기 때문이다.
+	//객체생성은 메인없이 한다 실행할게 없기 때문에
 
 }

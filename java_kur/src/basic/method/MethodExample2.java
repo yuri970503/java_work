@@ -74,7 +74,7 @@ public class MethodExample2 {
 		return total;
 	}
 	//가변인수(가변 피라미터)를 사용한 매개변수 작성.
-	// ㅗㅁ마로 나열되어 들어오는 여러개의 값을 배열로 묶어서 내부로 전달합니다.
+	// 콤마로 나열되어 들어오는 여러개의 값을 배열로 묶어서 내부로 전달합니다.
 	static int calcNumberTotal2(int...nums) 
 	{
 		int total = 0;
