@@ -1,4 +1,4 @@
-package oop.inherit.good;
+package oop.this_super;
 
 /*
  자식 크래스, 하위 클래스 (Child, Sub class)
@@ -12,7 +12,8 @@ package oop.inherit.good;
 
 
 public class Warrior extends Player {
-             // 자식에게 물려주다  부모가     
+             private static String name;
+	// 자식에게 물려주다  부모가     
 	int rage; // 부모가 물려주는것 외에 다른건 자식이 추가 
 	
 	
@@ -36,6 +37,18 @@ public class Warrior extends Player {
 	  
 	 
 	 */
+	
+	
+	Warrior(String name)
+	{
+		//모든 생성자에는 super()가 내장되어 있습니다.
+		//자식 객채가 생성 될 때는 부모의 생성이 되어야
+		//부모의 속성과 기능이 실존하게 되고 물려 줄 수사 있기 때문입니다.
+		
+		
+		super(name);//눈에 보이지 않아도 항상 포함되어있다
+		this.rage = 60;
+	}
 	
 	
 	//리턴타입 동일 메서드이름 동일

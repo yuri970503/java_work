@@ -10,7 +10,7 @@ public class Player {
 	  멤버변수(필드)와 메서드가 상속됩니다. 단, 생성자는 상속되지 않습니다.
 	 */
 
-
+        //공통된 특징 작성 부모는 자식의 정보를 알 수 없다 
 		
 		String name;
 		int level;
