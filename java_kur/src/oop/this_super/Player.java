@@ -53,7 +53,7 @@ public class Player {
 		}
 		
 		
-		void attack(Player target)
+		void attack(Player target) // 다형성 
 		{
 			if (this == target)
 			{

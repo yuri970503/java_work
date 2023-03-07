@@ -8,6 +8,9 @@ package oop.inherit.good;
  
  상속을 적용시키려면 자식 클래스 선언부의 클래스 이름 뒤에
  키워드 extends를 쓰고, 물려받을 보모 클래스의 이름을적 으시면 됩니다.
+ 
+ 상속을 한마디로? = 개념의 확장입니다.
+ 
  */
 
 
@@ -45,6 +48,7 @@ public class Warrior extends Player {
 		System.out.println("# 분노 " + rage);
 	}
 	
+	//상속이 되어있다면
 	// 메서드 오버라이딩 자동완성기능!!
 	//Alt + Shift + s 
 }

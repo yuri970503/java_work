@@ -3,7 +3,7 @@ package oop.encap.good;
 public class MyBirth {
 	/*
 	  캡슐화(은닉): 데이터 보호의 목적으로 사용하는
-	  OOP 기술 중 하나.
+	  OOP 기술 중 하나. (숨겨주는것)
 
 	  외부에서 직접 변수에 접근할 수 없도록 멤버변수에 private 제한을 붙임
 	 */
@@ -12,7 +12,7 @@ public class MyBirth {
 	private int year;
 	private int month;
 	private int day;
-
+    //접근제한자로 숨겨놓는것
 
 
 /*
@@ -37,7 +37,7 @@ public class MyBirth {
 
   3 메서드 이름은 일반적으로 set + 멤버변수 이름 으로 설정합니다. 
  */
-    public void setYear(int year)
+    public void setYear(int year)  //이 메소드는 같은 클래스에 있어서 접근이 가능하다
     {
     	if(year < 1900 || year > 2023)
     	{
