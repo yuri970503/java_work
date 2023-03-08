@@ -1,4 +1,4 @@
-package oop.this_super;
+package oop.poly.player;
 
 /*
  자식 크래스, 하위 클래스 (Child, Sub class)
@@ -44,18 +44,63 @@ public class Warrior extends Player {
 		//모든 생성자에는 super()가 내장되어 있습니다.
 		//자식 객채가 생성 될 때는 부모의 생성이 되어야
 		//부모의 속성과 기능이 실존하게 되고 물려 줄 수가 있기 때문입니다.
+		super(name);
 		
 		
-		super(name);//눈에 보이지 않아도 항상 포함되어있다
+		
+		
 		this.rage = 60;
+	}
+	/*
+	  전사의 고유 기능인 rush 메서드를 작성합니다
+	  
+	   rush의 대상은 모든 직업들 입니다.
+	   
+	   만약  rush의 대상이 전사라면 10의 피해를 받고 
+	   마법사라면 20의 피해를 받고 사냥꾼이라면 15의 피해를 받습니다.
+	   
+	   서로 다른 데미지를 instanceof를 사용하여 구부해서 적용해 주세요
+	   
+	   남은 체력도 출력해 주세요
+	   
+	   main에서 객체를 생성한 후 호출하셔서 잘 적용됐는지 확인해 주세요
+	 */
+	
+	  
+	
+	
+	
+	
+	
+	
+	public void rush(Player p )
+	{
+		System.out.printf("%s님이 %s님에게 돌진을 시전했습니다!\n"
+				, Warrior.name, p.name);
+		
+		if(p instanceof Warrior) {
+			p.hp -= 10;
+			System.out.printf("%s(전사)님이 10의 피해를 입었습니다.\n"
+					, p.name);
+		} else if(p instanceof Mage) {
+			p.hp -= 20;
+			System.out.printf("%s(마법사)님이 20의 피해를 입었습니다.\n"
+					, p.name);
+		} else if(p instanceof Hunter) {
+			p.hp -= 15;
+			System.out.printf("%s(사냥꾼)님이 15의 피해를 입었습니다.\n"
+					, p.name);
+		}
+		
+		System.out.printf("%s님의 남은 체력: %d\n", p.name, p.hp);
+		System.out.println("--------------------------------");
+		
 	}
 	
 	
 	
 	
-	
-	
-	
+     
 	
 	
 	//리턴타입 동일 메서드이름 동일

@@ -48,7 +48,7 @@ public class MainClass {
 		
 		//부모가 상위 자식으 ㄴ하위 강제로 끌어내려야함
 //		p2의 주소를 c2로 넘김 이제 자신의 시선으로 볼 수 있음 
-		Child c2 = (Child) p2; //부모 타입을 자식 타입으로 강제 변환(Downcasting)
+		Child c2 = (Child) p2; // 주소는 같음 접근방식을 늘린것 부모 타입을 자식 타입으로 강제 변환(Downcasting)
         c2.n2 =2;
         c.method3();
         //자식타입으로 넘겨서 보니 이제 보인다 시선이 달라짐
