@@ -18,6 +18,21 @@ public class MainClass {
          반지름이 4인 원의 모든 내용을 호출해 보세요.
         */
 		
+		
+		Shape r= new Rect("정사각형", 5);
+		System.out.println(r.getArea());
+		System.out.println("넓이: " +r.getArea());
+		
+		System.out.println("-----------------------------------");
+		
+		Shape c = new Circle ("원",4);
+		System.out.println(c.getName());
+		System.out.println("넓이: " +  c.getArea());
+		
+		
+		
+		
+		
 
 	}
 

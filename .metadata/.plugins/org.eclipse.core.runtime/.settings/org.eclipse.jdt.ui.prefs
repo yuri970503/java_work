@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="oop.juice.Apple"><rhs name\="oop.juice.Apple"/></lhs><lhs name\="oop.overloading.Calculator"><rhs name\="oop.overloading.Calculator"/></lhs><lhs name\="oop.static_singleton.Singleton"><rhs name\="oop.static_singleton.Singleton"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="oop.juice.Apple"><rhs name\="oop.juice.Apple"/></lhs><lhs name\="oop.overloading.Calculator"><rhs name\="oop.overloading.Calculator"/></lhs><lhs name\="oop.static_singleton.Singleton"><rhs name\="oop.static_singleton.Singleton"/></lhs><lhs name\="oop.inter.basic.ParentInter"><rhs name\="oop.inter.basic.ImplCass2"/></lhs><lhs name\="oop.inter.basic.Inter"><rhs name\="oop.inter.basic.ImplCass2"/></lhs></history>
 content_assist_number_of_computers=17
 eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=1

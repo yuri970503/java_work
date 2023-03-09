@@ -1,4 +1,4 @@
-package oop.inter;
+package oop.inter.copy;
 //인터페이스: 객체의 규격(기능)을 표준화해서 명세하는 역할.
 //클래스의 틀 같은 존제
 
