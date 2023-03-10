@@ -25,10 +25,51 @@ public class ScoreMain {
 
 
 		
-		
+		Score[] scores = new Score[100];
 		Scanner sc = new Scanner(System.in);
 		
+		for(int i=0; i<scores.length; i++) {
+			System.out.println("*** 학생 점수 입력 프로그램 ***");
+			System.out.println("'그만'을 입력하시면 종료됩니다.");
+			
+			System.out.print("이름: ");
+			String name = sc.next();
+			if(name.equals("그만")) {
+				System.out.println("입력을 종료합니다.");
+				break;
+			}
+		
 
+			System.out.print("국어: ");
+			int kor = sc.nextInt();
+			System.out.print("영어: ");
+			int eng = sc.nextInt();
+			System.out.print("수학: ");
+			int math = sc.nextInt();
+			
+			int total = kor + eng + math;
+			double avg = total / 3.0;
+			
+			scores[i] = new Score(name, kor, eng, math, total, avg);// 새로운 객체생성? 왜???
+			//생성자 이용해서 먼저 계산하고 매인에는 이렇게 안써줘도 괜찮다 그럼 매인이 깔끔해짐.. 
+			
+			
+		}//입력 반복문
+		//입력값이 100개 이하면 null을 참조하는 에러사항이 나온다. 예외처리보다는 if문으로도 가능하다
+		for(Score s : scores) {
+			if(s == null) break;
+			s.scoreInfo();
+			System.out.println("----------------------------");
+		}
+		
+		sc.close();
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 

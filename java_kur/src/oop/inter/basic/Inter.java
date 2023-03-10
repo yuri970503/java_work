@@ -8,7 +8,7 @@ public interface Inter extends ParentInter{
 
 	//클래스랑 개념이 다르다.
 	//인터페이스에서 변수를 선언하면 상수(static final)로 지정됩니다.
-	int NUM= 5;
+	int NUM= 5;//상수
 	
 //	
 //	Inter()
@@ -19,7 +19,7 @@ public interface Inter extends ParentInter{
 	
 	
 	//인터페이스에서 메서드를 선언하면 추상메서드로 지정됩니다.
-    void method1();
+    void method1();//추상메서드 
     
     public static void staticMethod() {
 		System.out.println("가능합니다~");

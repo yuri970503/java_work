@@ -1,6 +1,6 @@
 package etc.exception.throw_;
 
-public class ThrowXxample {
+public class ThrowExample {
 //예외를 발생시키는것  코드의 흐름을 확 변환시키려고 발생시킨다.
 	
 	
