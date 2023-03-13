@@ -11,7 +11,7 @@ public class DateExample {
 	public static void main(String[] args) {
 		
 		
-		Date date = new Date();
+		Date date = new Date();//오래된 객체임 사용하는데는 문제 없음
 		System.out.println(date);
 		
 		

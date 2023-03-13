@@ -24,6 +24,8 @@ public class StrText {
 		long end = System.currentTimeMillis();
 		
 		System.out.println("실행결과 "+ (end-start)*0.001+"초");
+		
+		//10000배 이상 빠름
 
 	}
 
